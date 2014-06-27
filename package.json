@@ -1,0 +1,24 @@
+{
+  "name": "rss-frequency",
+  "version": "0.0.1",
+  "description": "Small Library which return milliseconds of avarage update frequency in rss feed",
+  "main": "lib/frequency.js",
+  "scripts": {
+    "test": "cake test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikezono/node-rss-frequency.git"
+  },
+  "keywords": [
+    "rss",
+    "frequency",
+    "frequently",
+    "feed"
+  ],
+  "author": "nikezono",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikezono/node-rss-frequency/issues"
+  }
+}
