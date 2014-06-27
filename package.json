@@ -4,7 +4,7 @@
   "description": "Small Library which return milliseconds of avarage update frequency in rss feed",
   "main": "lib/frequency.js",
   "scripts": {
-    "test": "cake test"
+    "test": "mocha test/test.coffee"
   },
   "repository": {
     "type": "git",
