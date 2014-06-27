@@ -1,16 +1,22 @@
-chainof [![Build Status](https://travis-ci.org/nikezono/chainof.png)](https://travis-ci.org/nikezono/chainof)
+rss-frequency [![Build Status](https://travis-ci.org/nikezono/node-rss-frequency.png)](https://travis-ci.org/nikezono/node-rss-frequency)
 ---
 
-[![NPM](https://nodei.co/npm/chainof.png)](https://nodei.co/npm/chainof/)
+[![NPM](https://nodei.co/npm/rss-frequency.png)](https://nodei.co/npm/rss-frequency/)
 
-function chain,like [connect](http://www.senchalabs.org/connect/)
+## What is it
+`RSS-Frequency` is Small Library avarage update frequency of rss feed.
 
 ##install
 
 ***using npm:***
 
-    npm install chainof
+    npm install rss-frequency
 
 ****or using package.json:***
-
-    "chainof": "*"
+```
+{
+  "dependencies":{
+    "rss-frequency": "*"
+  }
+}
+```
