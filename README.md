@@ -8,11 +8,12 @@ rss-frequency [![Build Status](https://travis-ci.org/nikezono/node-rss-frequency
 
 ##install
 
-***using npm:***
+####NPM INSTALL:
 
     npm install rss-frequency
 
-****or using package.json:***
+####package.json:
+
 ```
 {
   "dependencies":{
@@ -20,3 +21,12 @@ rss-frequency [![Build Status](https://travis-ci.org/nikezono/node-rss-frequency
   }
 }
 ```
+
+## Usage
+
+    freq = require 'rss-frequency'
+    feed = 'http://github.com/nikezono.atom'
+    
+    freq feed,(error,interval)->
+      console.log interval
+      # -> 109127.0623 (second per publishing article)
