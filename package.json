@@ -1,6 +1,6 @@
 {
   "name": "rss-frequency",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Small Library which return milliseconds of avarage update frequency in rss feed",
   "main": "lib/frequency.js",
   "scripts": {
