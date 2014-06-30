@@ -1,6 +1,6 @@
 {
   "name": "rss-frequency",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Small Library which return milliseconds of avarage update frequency in rss feed",
   "main": "lib/frequency.js",
   "scripts": {
@@ -10,10 +10,13 @@
     "type": "git",
     "url": "https://github.com/nikezono/node-rss-frequency.git"
   },
-  "dependencies":{},
-  "devDependencies":{
-    "coffee-script":"*",
-    "mocha":"*"
+  "dependencies": {
+    "parse-rss": "~0.1.1",
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "coffee-script": "*",
+    "mocha": "*"
   },
   "keywords": [
     "rss",

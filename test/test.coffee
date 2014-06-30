@@ -11,20 +11,23 @@ path = require 'path'
 assert = require 'assert'
 
 # Feed Repo
-feed = "http://tumblr.nikezono.net/rss"
+feed = "https://github.com/nikezono.atom"
 
 frequency = null
 
 describe "rss-frequency",->
 
-  it "can compile",->
+  it "can compile",(done)->
     frequency = require path.resolve 'lib','frequency'
     assert.notEqual frequency,null
+    done()
 
-  it "can parsing rss feed",->
-    freq = frequency feed
-    assert.ok freq
+  it "can parsing rss feed",(done)->
+    frequency feed,(error,score)->
+      assert.ok score
+      done()
 
-  it "数値が帰る",->
-    freq = frequency feed
-    assert.equal class freq, Number
+  it "数値が帰る",(done)->
+    frequency feed,(error,score)->
+      assert.equal typeof score,"number"
+      done()
