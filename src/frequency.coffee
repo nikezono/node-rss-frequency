@@ -12,7 +12,7 @@ _      = require 'underscore'
 
 module.exports = (feed,callback)->
   parser feed,(error,articles)->
-    callback error,null if error
+    return callback error,null if error
     avr = 0 # unixtime
     dates = _.pluck articles,'pubDate'
     for date,i in dates
@@ -20,4 +20,4 @@ module.exports = (feed,callback)->
       diff = dates[i]/1000 - dates[i+1]/1000
       avr = avr + diff
     avr = avr / dates.length
-    callback null,avr
+    return callback null,avr
