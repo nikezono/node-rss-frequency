@@ -18,7 +18,7 @@ frequency = null
 describe "rss-frequency",->
 
   it "can compile",(done)->
-    frequency = require path.resolve 'lib','frequency'
+    frequency = require '../lib/frequency'
     assert.notEqual frequency,null
     done()
 
