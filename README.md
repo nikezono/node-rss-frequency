@@ -1,4 +1,4 @@
-rss-frequency [![Build Status](https://travis-ci.org/nikezono/node-rss-frequency.png)](https://travis-ci.org/nikezono/node-rss-frequency)
+rss-frequency [![Build Status](https://travis-ci.org/nikezono/node-rss-frequency.png)](https://travis-ci.org/nikezono/node-rss-frequency)[![Coverage Status](https://coveralls.io/repos/nikezono/node-rss-frequency/badge.png)](https://coveralls.io/r/nikezono/node-rss-frequency)
 ---
 
 [![NPM](https://nodei.co/npm/rss-frequency.png)](https://nodei.co/npm/rss-frequency/)
